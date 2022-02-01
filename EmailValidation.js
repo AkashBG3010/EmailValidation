@@ -1,5 +1,5 @@
 let email = prompt('Enter the Email-id to be validated: ')
-const emailRegex = RegExp('^[abc.]+[A-Za-z.]+@+[a-zA-Z].[a-zA-Z.]$')
+const emailRegex = RegExp('^[a-zA-Z]*[@]{1}[bridgelabz][.a-z]*$')
 function validationOfEmail(email) {
     if (emailRegex.test(email)) {
         console.log('Entered Email is valid!!')
